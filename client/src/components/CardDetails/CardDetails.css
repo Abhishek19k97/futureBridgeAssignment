@@ -1,0 +1,26 @@
+.card-container{
+  height: 300px;
+  width: 300px;
+  border: 1px solid bblack;
+  border-radius: 5px;
+  margin: 5%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.5s linear; 
+}
+
+.card-container:hover{
+  transform: scale(1.1);
+}
+
+.fa fa-star {
+  color: yellow;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: orange;
+}
+
+
